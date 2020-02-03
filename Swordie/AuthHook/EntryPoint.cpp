@@ -8,7 +8,7 @@
 
 #include "Global.h"
 
-Config*	g_pConfig;
+Config*	g_pConfig = new Config();
 DWORD	g_dwPID;
 
 
