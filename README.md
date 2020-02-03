@@ -1,2 +1,2 @@
 # SwordieClient
-Global MapleStory v176.1 Localhost Enabler
+Future Swordie Client. Currently in development. Needs a little testing.
