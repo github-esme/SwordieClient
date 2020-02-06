@@ -9,7 +9,7 @@
 //---------------------------------------------------------------------------------------------
 
 #define OPT_APP_NAME		"SwordieClient"
-#define OPT_APP_VERSION		"1.0"
+#define OPT_APP_VERSION		"1.1"
 #define OPT_CFG_FILE		".\\Swordie.ini"
 #define OPT_CFG_NAME		"Client"
 

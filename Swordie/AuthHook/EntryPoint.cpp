@@ -3,14 +3,20 @@
 // Version	:	Global MapleStory v176.1
 // Authors	:	Rajan Grewal
 // Date		:	February 3, 2020
-// Notes	:	Must be injected via Swordie.exe
+// Notes	:	Must be injected via [Swordie.exe], [AuthHook Launcher] or [IAT Import via ijl15]
 //---------------------------------------------------------------------------------------------
 
 #include "Global.h"
 
+#define LIB_EXPORT	extern "C" __declspec(dllexport)
+
 Config*	g_pConfig = new Config();
 DWORD	g_dwPID;
 
+LIB_EXPORT void FooBar()
+{
+
+}
 
 VOID WINAPI HeaderProc()
 {
